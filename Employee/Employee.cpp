@@ -55,16 +55,16 @@ void Employee::setSex(std::string sex)
 	this->sex = sex;
 }
 
-int Employee::getSalary()
-{
-	return 0;
-}
-
-void Employee::output()
-{
-	std::cout << "Its Employee" << "\n";
-	std::cout << "name: " << name << "\n";
-	std::cout << "age: " << age << "\n";
-	std::cout << "sex: " << sex << "\n";
-}
+//int Employee::getSalary()
+//{
+//	return 0;
+//}
+//
+//void Employee::output()
+//{
+//	std::cout << "Its Employee" << "\n";
+//	std::cout << "name: " << name << "\n";
+//	std::cout << "age: " << age << "\n";
+//	std::cout << "sex: " << sex << "\n";
+//}
 

@@ -15,8 +15,8 @@ public:
 	void setName(std::string name);
 	void setAge(int age);
 	void setSex(std::string sex);
-	virtual int getSalary();
-	virtual void output();
+	virtual int getSalary() = 0;
+	virtual void output() = 0;
 protected:
 	std::string name;
 	int age;
