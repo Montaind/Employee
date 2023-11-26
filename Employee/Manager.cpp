@@ -59,5 +59,5 @@ void Manager::output()
 		postt = "None";
 		break;
 	}
-	std::cout << "post: " << postt << "\n";
+	std::cout << "post: " << postt << "\n\n";
 }
